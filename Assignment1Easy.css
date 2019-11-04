@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+body {
+    background-color: gray;
+    position: absolute;
+    width: 85%;
+    justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+
+header {
+    background-color: white;
+    position: relative;
+    top: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    width: inherit;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+nav {
+    background-color: white;
+    position: inherit;
+    left: 0;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.boxes {
+    display: flex;
+    padding: 20px;
+}
+
+footer {
+    background-color: white;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.leftbox {
+  background-color: white;
+  width: 700px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 0;
+  border: 2px solid black;
+}
+
+.rightbox {
+  background-color: white;
+  width: 700px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 0;
+  border: 2px solid black;
+}
+
+.box1 {
+
+}
+
+.box2 {
+  background-color: gray;
+  padding: 10px;
+}
+
+.box3 {
+  background-color: white;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.box4 {
+  background-color: white;
+  padding: 10px;
+}

@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+}
+
+body {
+    color: #777;
+    background: #777;
+    position: absolute;
+    width: 960px;
+    justify-content: center;
+    font-family: 'arial', 'helvetica neue', helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.container {
+  text-align: center;
+}
+
+header {
+    background: #ebebeb;
+    position: relative;
+    top: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    width: inherit;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+nav {
+    background: #ebebeb;
+    position: inherit;
+    left: 0;
+    padding: 10px;
+    margin-top: 20px;
+    border: 2px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.boxes {
+    display: flex;
+    padding: 20px;
+}
+
+footer {
+    background: #ebebeb;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.leftbox {
+  background: #ebebeb;
+  width: 700px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 0;
+  border: 2px solid black;
+}
+
+.rightbox {
+  background: #ebebeb;
+  width: 700px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 0;
+  border: 2px solid black;
+}
+
+.box1 {
+
+
+}
+
+.box2 {
+  background: #777;
+  color: #ebebeb;
+
+}
+
+.box3 {
+  background: #777;
+  color: #ebebeb;
+
+}
+
+.box4 {
+  background-color: white;
+  padding: 10px;
+}
+
+article {
+  color: #ebebeb;
+  background: #777;
+}
+
+h1 {
+  background: #ebebeb;
+  color: #777;
+}
+
+p {
+  background: #ebebeb;
+  color: #777;
+}
